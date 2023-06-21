@@ -16,7 +16,7 @@
 	<description>SWE645 Assignment 1</description>
 	<properties>
 		<java.version>17</java.version>
-		<tomcat.version>8.5.89</tomcat.version>
+		<tomcat.version>9.0.76</tomcat.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -35,6 +35,7 @@
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
 		</dependency>
 
 
@@ -42,6 +43,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>${project.artifactId}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

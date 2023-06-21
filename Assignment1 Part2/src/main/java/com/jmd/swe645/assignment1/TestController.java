@@ -1,3 +1,10 @@
+/**
+ * Jared DiCioccio
+ *
+ * This is an endpoint that simply returns a string. Used to test that application is running.
+ *
+ *
+ */
 package com.jmd.swe645.assignment1;
 
 import org.springframework.stereotype.Controller;
